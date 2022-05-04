@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+color: #fff;
+text-decoration: none;
+transition: 0.3s;
+margin-top: 10px;
+}
+
+a:hover{
+    opacity: 0.7;
+
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+    background: #23232e;
+    height: 6vh;  
+}
+
+main{
+    background: url(https://cdn.pixabay.com/photo/2016/03/09/14/46/woman-1246488_960_720.jpg) no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin-top: 15px;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.img01{  
+    float: left;
+    width: 470px;
+    height: 340px;
+    margin-right: 50px; 
+    box-shadow: 10px 10px 5px #23232e46;
+    margin-left: 50px;
+}
+
+body{
+    background: url(https://st.depositphotos.com/3008028/4295/i/600/depositphotos_42950093-stock-photo-frost-white-background-black-light.jpg);
+    background-size: cover;
+   
+   
+}
+
+h3,h4{ 
+    padding-top: 40px;
+    text-align: center;
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+    font-size: 24px;   
+}
+
+h3{
+    padding-top: 10px;
+    padding-bottom: 50px ;}
+
+h5{
+    padding-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font: 20px;
+    text-align: center;
+}
+
+h1{
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+    font: 20px;
+    padding-bottom: 25px;
+}
+
+
+.p01{
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+    padding-right: 80px;
+    font-size: 18px;
+    padding-left: 400px;
+    padding-top: 20px;
+   
+}
+
+.p03{
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    
+
+}
+
+.container {
+    display: flex;
+    
+    
+   
+
+}
+
+.container div {
+    margin: 50px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    
+}
+
+.imgbox{ 
+    width: 350px;
+    height: 260px;
+    box-shadow: 10px 10px 5px #23232e46;
+    
+}
+
+.body03{ 
+   
+    text-align: center;
+    padding-top: 100px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+    
+}
+
+footer{
+    justify-content: space-around;
+    background: #23232e;
+    height: 6vh;
+    text-align: center;
+    padding: 80px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+
+
+.main02{ background: url(https://cdn.pixabay.com/photo/2017/05/22/07/20/woman-2333327_960_720.jpg) no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+
+}
+
+.img03{ 
+    margin-top: 130px;
+    box-shadow: 10px 10px 5px #23232e1c;
+    margin-left: 30px;
+    
+}
+
+.main03{
+    background: url(https://cdn.pixabay.com/photo/2020/05/03/07/43/green-5124174_960_720.jpg) no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+    
+
+}
+
+
+  .body00 {
+    background:url(https://st.depositphotos.com/3008028/4295/i/600/depositphotos_42950093-stock-photo-frost-white-background-black-light.jpg);
+    background-size: cover; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    
+  }
+  
+  h1,
+  h2 {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.2;
+    
+  }
+  
+
+  
+  .form {
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
+  }
+  
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    display: block;
+    width: 100%;
+  }
+  
+  .form label {
+    color: rgb(0, 0, 0);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    
+  }
+  
+  .form input,
+  .form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+    
+  }
+  
+  .form textarea {
+    min-height: 13rem;
+    resize: vertical;
+  }
+  
+  .form input:hover,
+  .form input:focus,
+  .form textarea:hover,
+  .form textarea:focus {
+    outline: none;
+    border-color: #4b4b4bce;
+    box-shadow: 0 0 0 3px #4b4b4bce;
+  }
+  
+  .form button {
+    display: block;
+    padding: 1rem;
+    background: #000000d8;
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 15px;
+  }
+  
+  .form button:hover,
+  .form button:focus {
+    outline: none;
+    background: #398333f3;
+  }
+
+  .formula{ 
+      text-align: center;
+      margin-left: 450px;
+    margin-bottom: 100px;}
+
+
+
+
+
+
+
+
+ .col {
+    float: left;
+    width: 30%;
+    margin-left: 18px;
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-bottom: 50px;}
+
+.price-box {
+    background: #fff;
+    color: #555;
+    list-style-type: none;
+    border: 1px solid #555;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    border-radius: 5px;
+ }
+
+.price-box .header {
+background-color: #282936;;
+color: #fff;
+font-size: 27px;
+font-family: inherit;}  
+
+.price-box li {
+    padding: 20px;
+    border-bottom: 20px solid #eee;
+    text-align: center;
+}
+
+.apoio{ background-color: #000000d8;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;}  
+
+h2{ 
+    text-align: center;
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 25px;
+   
+}
+
+
+/* From uiverse.io */
+button {
+position: relative;
+display: inline-block;
+cursor: pointer;
+outline: none;
+border: 0;
+vertical-align: middle;
+text-decoration: none;
+background: transparent;
+padding: 0;
+font-size: inherit;
+font-family: inherit;
+
+}
+
+button.learn-more {
+width: 12rem;
+height: auto;
+
+}
+
+button.learn-more .circle {
+transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+position: relative;
+display: block;
+margin: 0;
+width: 3rem;
+height: 3rem;
+background: #252631;
+border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+position: absolute;
+top: 0;
+bottom: 0;
+margin: auto;
+background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+left: 0.625rem;
+width: 1.125rem;
+height: 0.125rem;
+background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+position: absolute;
+content: "";
+top: -0.29rem;
+right: 0.0625rem;
+width: 0.625rem;
+height: 0.625rem;
+border-top: 0.125rem solid #fff;
+border-right: 0.125rem solid #fff;
+transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+padding: 0.75rem 0;
+margin: 0 0 0 1.85rem;
+color: #282936;
+font-weight: 700;
+line-height: 1.6;
+text-align: center;
+text-transform: uppercase;
+}
+
+button:hover .circle {
+width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+background: #fff;
+transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+color: #fff;
+}
+
+.botaoenviar{
+text-align: center;
+padding-bottom: 40px;
+
+}
+
+.container02 {
+max-width: 1100px;
+margin: auto;
+overflow: auto;
+padding: 0 2rem;
+padding-top: 50px;
+}
+
+.card {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 2rem;
+background: #f1f1f1;
+margin-bottom: 2rem;}
+
+.card h3 {
+margin-bottom: 2rem;
+}
+
+.card img {
+height: 400px;
+}
+
+.card>div {
+padding: 2rem;}
+
